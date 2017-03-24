@@ -1,3 +1,10 @@
+<a name="0.2.2"></a>
+## 0.2.2 (2017-03-24)
+
+* Tweaks ([66757c6](https://github.com/kikobeats/material-colors-scss/commit/66757c6))
+
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2017-03-24)
 
