@@ -2,7 +2,7 @@
   "name": "material-colors-scss",
   "description": "Material colors binds for developers",
   "homepage": "https://github.com/Kikobeats/material-colors-scss",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
@@ -16,12 +16,12 @@
     "url": "https://github.com/Kikobeats/material-colors-scss/issues"
   },
   "keywords": [
-    "material",
     "colors",
-    "sass",
-    "scss",
     "developer",
-    "experience"
+    "experience",
+    "material",
+    "sass",
+    "scss"
   ],
   "files": [
     "_map.scss",
