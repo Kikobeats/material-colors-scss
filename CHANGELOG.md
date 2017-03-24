@@ -1,3 +1,10 @@
+<a name="0.2.1"></a>
+## 0.2.1 (2017-03-24)
+
+* Merge hover and focus rules ([282660f](https://github.com/kikobeats/material-colors-scss/commit/282660f))
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2017-03-24)
 
