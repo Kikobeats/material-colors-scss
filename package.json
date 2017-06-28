@@ -2,13 +2,13 @@
   "name": "material-colors-scss",
   "description": "Material colors binds for developers",
   "homepage": "https://github.com/Kikobeats/material-colors-scss",
-  "version": "0.2.2",
+  "version": "1.0.0",
+  "main": "material-color.css",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
-  "main": "material-color.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kikobeats/material-colors-scss.git"
@@ -24,6 +24,9 @@
     "sass",
     "scss"
   ],
+  "dependencies": {
+    "node-sass": "~4.5.3"
+  },
   "files": [
     "_map.scss",
     "classes.scss",
@@ -34,8 +37,5 @@
   "scripts": {
     "build": "sass classes.scss > material-color.css"
   },
-  "license": "MIT",
-  "dependencies": {
-    "node-sass": "~4.5.3"
-  }
+  "license": "MIT"
 }

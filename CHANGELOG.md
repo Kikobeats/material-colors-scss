@@ -1,3 +1,11 @@
+<a name="1.0.0"></a>
+# 1.0.0 (2017-06-28)
+
+* Add border color ([f80250a](https://github.com/kikobeats/material-colors-scss/commit/f80250a))
+* Generate compiled colors ([ee8e46e](https://github.com/kikobeats/material-colors-scss/commit/ee8e46e))
+
+
+
 <a name="0.2.2"></a>
 ## 0.2.2 (2017-03-24)
 
