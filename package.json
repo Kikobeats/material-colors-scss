@@ -8,6 +8,7 @@
     "name": "Kiko Beats",
     "url": "https://github.com/Kikobeats"
   },
+  "main": "material-color.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kikobeats/material-colors-scss.git"
@@ -27,7 +28,14 @@
     "_map.scss",
     "classes.scss",
     "function.scss",
+    "material-color.css",
     "placeholders.scss"
   ],
-  "license": "MIT"
+  "scripts": {
+    "build": "sass classes.scss > material-color.css"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "~4.5.3"
+  }
 }
