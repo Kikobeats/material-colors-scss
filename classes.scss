@@ -2,22 +2,26 @@
 
 @each $color-name, $color-variants in $material-colors {
   @each $color-variant, $hex-value in $color-variants {
-      .#{$color-name}-#{$color-variant} {
-        color: #{$hex-value};
-      }
+    .#{$color-name}-#{$color-variant} {
+      color: #{$hex-value};
+    }
 
-      .hover-#{$color-name}-#{$color-variant}:hover,
-      .hover-#{$color-name}-#{$color-variant}:focus {
-        color: #{$hex-value};
-      }
+    .hover-#{$color-name}-#{$color-variant}:hover,
+    .hover-#{$color-name}-#{$color-variant}:focus {
+      color: #{$hex-value};
+    }
 
-      .bg-#{$color-name}-#{$color-variant} {
-        background-color: #{$hex-value};
-      }
+    .bg-#{$color-name}-#{$color-variant} {
+      background-color: #{$hex-value};
+    }
 
-      .hover-bg-#{$color-name}-#{$color-variant}:hover,
-      .hover-bg-#{$color-name}-#{$color-variant}:focus {
-        background-color: #{$hex-value};
-      }
+    .hover-bg-#{$color-name}-#{$color-variant}:hover,
+    .hover-bg-#{$color-name}-#{$color-variant}:focus {
+      background-color: #{$hex-value};
+    }
+
+    .b--#{$color-name}-#{$color-variant} {
+      border-color: #{$hex-value};
+    }
   }
 }
